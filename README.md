@@ -2,7 +2,7 @@
 
 Objective- Create a model that would take variables and predict if a loan is approved = 1 or not apporved = 0 
 
-Result- After analysis we found that- Random forest did the best amongst all. 
+Result- **After analysis we found that- Random forest did the best amongst all.** 
 
 <img width="542" height="508" alt="image" src="https://github.com/user-attachments/assets/6fad9b39-e9d8-4c3d-ab00-cbba7310eaa3" />
 
@@ -12,7 +12,7 @@ So model is not over fitting
 
 Then Precision and Recall is 1 which is perfect and F1 score is also 1. We only got 1 False Negative which is really good accuracy rate. 
 
-_____ Step by step explanation of steps ________
+### _____ Step by step explanation of steps ________
 
 Variables used are-
 1. Number of dependents
@@ -26,7 +26,7 @@ Variables used are-
 9. commercial_assets_value
 10. luxury_assets_value	bank_asset_value
 
-Step 1- Data cleaning and processing- 
+**Step 1- Data cleaning and processing-**
 
 1. Descriptive Analysis- Started with looking at desciption of the data which included looking at Mean, standard deviation, min and max values for each variable. 
 
@@ -46,7 +46,7 @@ Also did Box plots to look at outliers in the dataset. And found outliers which 
 
 <img width="507" height="328" alt="image" src="https://github.com/user-attachments/assets/16260797-9b4e-40f9-95c4-e7a2f0510026" />
 
-Step 2- Data pre processing and feature engineering 
+**Step 2- Data pre processing and feature engineering**
 
 In this step I conducted correlation heatmap to check how each variable is related to each other. Before this I encoded the categorical variables using Label encoders to convert them to quantitative values. 
 
@@ -59,7 +59,7 @@ After this when correlation heatmap was plotted we saw significant change-
 
 <img width="545" height="345" alt="image" src="https://github.com/user-attachments/assets/1276b665-56d9-41aa-a43a-77ea33175986" />
 
-Step - 3 Train Multiple models and evaluate
+**Step - 3 Train Multiple models and evaluate**
 
 Once we were done with data cleaning and feature engineering- we started with creating the model. The 4 models that we tested were
 1. Logistic Regression (Last)
